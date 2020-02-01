@@ -30,7 +30,6 @@ class App extends React.Component {
         {
           this.state.monsters.map(monster => <h1 key={monster.id}> { monster.name } </h1>)
         }
-        <h1>Connected</h1>
       </div>
     );
   };
